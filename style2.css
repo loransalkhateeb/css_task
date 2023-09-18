@@ -1,0 +1,19 @@
+.wrapper>div {
+    border:2px solid Chartreuse;
+    float:left;
+    width:251px;
+    height:301px;
+    margin:0 11px;
+    position:relative;
+ }
+ 
+ .wrapper {
+    margin:0 auto;
+    width:831px;
+ }
+
+ .clearfix:before, .clearfix:after {
+    content:"";
+    clear:both;
+    display:block;
+ }
